@@ -20,7 +20,7 @@
         animego: anilib {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp H &kp T &kp T &kp P &kp S &kp COLON &kp FSLH &kp FSLH &kp A &kp N &kp I &kp M &kp E &kp G &kp O &kp DOT &kp L &kp O &kp L &kp FSLH &kp RET>;
+            bindings = <&kp LC(T) &none &kp H &kp T &kp T &kp P &kp S &kp COLON &kp FSLH &kp FSLH &kp A &kp N &kp I &kp M &kp E &kp G &kp O &kp DOT &kp L &kp O &kp L &kp FSLH &kp RET>;
             label = "ANILIB";
         };
     };

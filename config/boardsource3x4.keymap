@@ -25,6 +25,20 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        v_up {
+            bindings = <&kp C_VOL_UP>;
+            key-positions = <7 3>;
+        };
+
+        v_down {
+            bindings = <&kp C_VOL_DN>;
+            key-positions = <7 11>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 

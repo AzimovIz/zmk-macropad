@@ -37,6 +37,26 @@
             bindings = <&kp C_VOL_DN>;
             key-positions = <7 11>;
         };
+
+        left {
+            bindings = <&kp LEFT>;
+            key-positions = <6 5>;
+        };
+
+        up {
+            bindings = <&kp UP>;
+            key-positions = <6 2>;
+        };
+
+        right {
+            bindings = <&kp RIGHT>;
+            key-positions = <6 7>;
+        };
+
+        down {
+            bindings = <&kp DOWN>;
+            key-positions = <6 10>;
+        };
     };
 
     keymap {

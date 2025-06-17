@@ -9,14 +9,23 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    macros {
+        SOB: SOB {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp C &kp V &kp J &kp N &kp H &kp T &kp N &kp M &kp SPACE &kp J &kp Y &kp K &kp F &kp Q &kp Y &kp SPACE &kp T &kp C &kp G &kp K &kp F &kp N &kp Y &kp J>;
+            label = "SOB";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             bindings = <
-&mo 1  &kp W  &kp E  &kp C_NEXT
-&mo 2  &kp S  &kp D  &kp C_PLAY_PAUSE
-&mo 3  &kp X  &kp C  &kp C_PREV
+&mo 1  &kp LC(C)  &kp LC(V)  &kp C_NEXT
+&mo 2  &SOB       &none      &kp C_PLAY_PAUSE
+&mo 3  &none      &none      &kp C_PREV
             >;
         };
 

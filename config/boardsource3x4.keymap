@@ -14,9 +14,9 @@
 
         default_layer {
             bindings = <
-&kp Q  &kp W  &kp E  &kp R
-&kp A  &kp S  &kp D  &kp F
-&kp Z  &kp X  &kp C  &kp V
+&mo 1  &kp W  &kp E  &kp C_NEXT
+&mo 2  &kp S  &kp D  &kp C_PLAY_PAUSE
+&mo 3  &kp X  &kp C  &kp C_PREV
             >;
         };
 

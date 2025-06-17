@@ -14,9 +14,9 @@
 
         default_layer {
             bindings = <
-&tog 1  &kp C_PREV    &kp C_PP  &kp C_NEXT
-&mo 2   &kp C_VOL_DN  &kp UP    &kp C_VOL_UP
-&mo 3   &kp LEFT      &kp DOWN  &kp RIGHT
+&kp Q  &kp W  &kp E  &kp R
+&kp A  &kp S  &kp D  &kp F
+&kp Z  &kp X  &kp C  &kp V
             >;
         };
 

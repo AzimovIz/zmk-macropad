@@ -64,9 +64,9 @@
 
         default_layer {
             bindings = <
-&mo 1  &kp LC(C)  &kp LC(V)  &kp C_NEXT
-&mo 2  &SOB       &animego   &kp C_PLAY_PAUSE
-&mo 3  &none      &none      &kp C_PREV
+&mo 1  &kp LC(C)       &kp LC(V)  &kp C_NEXT
+&mo 2  &SOB            &animego   &kp C_PLAY_PAUSE
+&mo 3  &kp LA(LSHIFT)  &none      &kp C_PREV
             >;
         };
 

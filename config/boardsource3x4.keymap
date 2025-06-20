@@ -65,7 +65,7 @@
         default_layer {
             bindings = <
 &kp ESC  &kp LC(C)       &kp LC(V)  &kp C_NEXT
-&mo 1    &SOB            &animego   &kp C_PLAY_PAUSE
+&mo 1    &SOB            &none      &kp C_PLAY_PAUSE
 &mo 2    &kp LA(LSHIFT)  &none      &kp C_PREV
             >;
         };
@@ -80,9 +80,9 @@
 
         lower_layer {
             bindings = <
-&bt BT_CLR  &none         &sys_reset    &bootloader
-&trans      &bt BT_SEL 3  &bt BT_SEL 4  &trans
-&none       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2
+&trans      &none         &none         &none
+&trans      &none         &none         &none
             >;
         };
 
